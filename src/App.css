@@ -1,38 +1,116 @@
+body{
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/38094b95235473.5e92ecc4409a8.gif');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 80px;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 2px 2px 5px black;
+}
+.intro{
+  width: 100%;
+  height: calc(100vh - 50px);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: rgb(21,17,41) solid 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.about-me-component{
+  
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100vw;
+  background-color: #0A0A0A;
+  background-image: url('https://miro.medium.com/max/1400/1*y93jZzftu0aJQyc0SjEmTg.gif');
+  filter: hue-rotate(900deg);
+  background-size: contain;
+  background-blend-mode: color-dodge;
+}
+.about-me-info-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me-paragraph{
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+  font-size: 25px;
+
+  -webkit-text-stroke-color: black;
+  font-weight: 300;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.about-me-pic{
+  filter: hue-rotate(-900deg);
+  width: 300px;
+  margin-bottom: 60px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+
+
+.creations-component{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  border-top: rgb(21,17,41) solid 30px;
+  background-color: rgba(34, 34, 34, 0.541);
+  backdrop-filter: blur(10px);
+  background-size: contain;
+  background-position: center;
+  
+  height: auto;
+  width: 100vw;
+  
+}
+
+.creation-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.creation{
+  height: auto;
+  margin: 10px;
+  color: white;
+  background-color: #00000063;
+  padding: 20px;
+}
+
+
+
+#site_link{
+  color: rgb(230, 107, 255);
+}
+
+#site_link:hover{
+  color: rgb(255, 0, 242);
+  -webkit-transition: color 250ms linear;
 }

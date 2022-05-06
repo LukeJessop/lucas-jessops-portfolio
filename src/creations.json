@@ -1,0 +1,37 @@
+[
+    {   
+        "id":"1",
+        "name":"Monkidex",
+        "description":"Monkidex is a social media website that creates networking opportunities for people who own, love, and are Monkeys! Using features similar to instagram, one can share pictures of their favorite monkeys.",
+        "info" : {
+            "technologies": "React | Redux | NodeJS | Express | PostgreSQL | CSS | S3",
+            "url":"https://monkidex.herokuapp.com/",
+            "video_demo_embed":"9QV4kVLnVXk",
+            "preview_img_url":"https://media-exp1.licdn.com/dms/image/sync/C5627AQHNVtZFFnbOsA/articleshare-shrink_480/0/1651807597341?e=1651906800&v=beta&t=HykZbvetGNJDHqJb788-ZT-aCw083Gjm8lJqXJ-Uu-E"
+        }
+    },
+    {   
+        "id":"2",
+        "name":"DnD FindMe",
+        "description":"DnD FindMe is a website that creates opportunities for D&D players to connect with each other, and meet up either in person or online to play campaigns.",
+        "info" : {
+            "technologies": "React | Redux | NodeJS | Express | PostgreSQL | SCSS | Google maps API | Twilio",
+            "url":"https://d-d-find-me.herokuapp.com/",
+            "video_demo":"",
+            "preview_img_url":"https://cdn.discordapp.com/attachments/737868468904525957/972046877979709460/unknown.png"
+        }
+    },
+    {   
+        "id":"3",
+        "name":"Discord Bot",
+        "description":"A discord bot that simulates a casino allowing players to play 3 different casino games: Roullette, Slots, and Coinflip. (still a work in progress)",
+        "info" : {
+            "technologies": "DiscordJS | Dotenv | Sequelize | NodeJs",
+            "url":"https://discord.com/api/oauth2/authorize?client_id=872699024967340113&permissions=52224&scope=bot",
+            "video_demo":"",
+            "preview_img_url":"https://cdn.discordapp.com/attachments/737868468904525957/972071885032554546/1024x768.jpg"
+        }
+    }
+
+]
+
